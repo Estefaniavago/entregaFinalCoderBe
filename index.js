@@ -29,7 +29,7 @@ const __dirname = path.dirname(__filename);
 //Creacion de app y puerto
 const app = express();
 const PORT = 8080;
-const MONGO_URL = process.env.MONGO_URL || "mongodb://localhost:27017/coderhouse";
+const MONGO_URL = process.env.MONGO_URL;
 
 
 // Middlewares. Permiten recibir json en body y formularios
